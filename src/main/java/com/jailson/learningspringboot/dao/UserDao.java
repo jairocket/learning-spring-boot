@@ -8,5 +8,5 @@ public interface UserDao {
     User getUser(UUID userUid);
     int updateUser(User user);
     int removeUser(UUID userUid);
-    int inserUser(User user);
+    int insertUser(UUID userUid, User user);
 }

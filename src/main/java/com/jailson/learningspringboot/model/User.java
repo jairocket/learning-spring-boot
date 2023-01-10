@@ -54,7 +54,7 @@ public User(UUID userUid, String firstName, String lastName, Gender gender, Inte
                 '}';
     }
 
-    enum Gender {
+    public enum Gender {
         MALE,
         FEMALE
     }
